@@ -10,6 +10,7 @@ import ProductPage from './pages/ProductPage';
 import CollectionsPage from './pages/CollectionsPage';
 import CustomizerPage from './pages/CustomizerPage';
 import CartPage from './pages/CartPage';
+import ChatBot from './components/ChatBot';
 
 // Scroll to top on route change helper
 const ScrollToTop = () => {
@@ -74,6 +75,7 @@ const App: React.FC = () => {
         </main>
 
         <BottomNav />
+        <ChatBot />
         
         <CartDrawer 
           isOpen={isCartOpen} 
