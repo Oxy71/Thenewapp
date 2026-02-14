@@ -2,13 +2,14 @@
 import { Product, Collection } from './types';
 
 export const PRODUCTS: Product[] = [
+  // Western Collection
   {
     id: 'p1',
     name: 'The "Eye-Wander" Oversized Tee',
     category: 'Western',
     subCategory: 'Gen-Z Humor',
     price: 1599,
-    imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuC-Q55JiaZS4jegqdANILr9eRTyu__WQs7sob6VXojLqWaPzrlCol9FRvyDU_lRC2AAdRNM5-w6R_6p7-40dNWGixV1vpbC0fNhFuiOoBgmVfYJQSYQ84MmCHzyqkG-H-UB33jCChJ1wYjLMr8dJ2MOztU04U1xrASisCvAniP8oz-D85gilmEBlf8xyoWvUgg8qc9m-N27Fsoc_bD7fcIf40l6GCJytBQJ0hGtQ32UHYxLTTGEduaQQI3ncspL162ukImqxzwxfpc',
+    imageUrl: 'https://i.ibb.co/LnhYmTM/Qv9FXjtK.png',
     tag: 'West',
     description: 'Iconic distracted boyfriend meme turned into premium streetwear.',
     backstory: 'Originating from a stock photo by Antonio Guillem, this meme became the internet\'s favorite way to describe new attractions.',
@@ -20,8 +21,8 @@ export const PRODUCTS: Product[] = [
     category: 'Western',
     subCategory: 'Viral',
     price: 1699,
-    imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAopr2KYOCA5G8nAgz0KZk3q3grpmunQIO0Evc-yANMsgMPupk4iaRumMCrBbWdHh3TMuz-8YrevxCPYUqDzkyDG0UZyrSazgODAQonfUC9y2JFx66Bnjb9GBRtWl5QplUv9_5csRfdroddbZNKsF-qb2yayGiFr_GgqUQXf4cCHh7XIphumFjQYGsohzmZC5K4N3IXFGjTATRJSlo6iwjVRWGdH0nIkebJ75PhDuhEmVj2uXozbd_dD4Y-pGUH9cN39j6XOhGh2TE',
-    tag: 'Viral',
+    imageUrl: 'https://i.ibb.co/3m1c3KCP/image.png',
+    tag: 'West',
     description: 'Keep it cool like Bernie in his mittens.',
     points: 500
   },
@@ -31,22 +32,34 @@ export const PRODUCTS: Product[] = [
     category: 'Western',
     subCategory: 'Iconic',
     price: 1599,
-    imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBF0cb1-MFDTiJVOll_6ElNEnK__NtOYRTHzyDuD-GFzc4tr-mr8ebHtlNCcLv9lHh-s4KsScrGdN8sUoNQaFr4GbeazsVdaIRV4qbYc6lVACzXNv77ENBp1zC5lGZEfTWn_IGWo1bFzGhUCKQhdS2lG1YCrbyp08NlPf_Gt3yUye2niBFCBSbVaEjVUcs6Q4SDQk_Z8Y0pSC9_Celg83PXTGMLAdD0MGKOwMHLflSl8eBjgxZnHXHlXhpSC9FbcHz0sF4gw7-Zgqg',
-    tag: 'Iconic',
+    imageUrl: 'https://i.ibb.co/knL6QQ2/image.png',
+    tag: 'West',
     description: 'The ultimate showdown: Woman Yelling at a Cat.',
     points: 450
   },
   {
-    id: 'p4',
-    name: '"Totally Fine" Fire Street Tee',
+    id: 'p6',
+    name: 'Success Kid Motivation Tee',
     category: 'Western',
-    subCategory: 'Oversized',
-    price: 1799,
-    imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDii1W-nh0BKR0XgBN_m4OOWt_YjG-96jgF5LEwIilzOuS-cbVKDrfmKhYh3APjmfZq47cDcuOUkiTZLirPp6B2yyt6OAGl7WqUeZIZ7rDCd7gnFfRgQ-rFFEKHKOyLXTprprzvtRzDh_AFcKhciwKYO02Vob97i9MX9tumMAS1g1KaCot5rZY0fZ4q07TSosKZBhu8qr7wq7aVxd2yFFwNPFlLUiibiSsHHguvMPNIcFOjF1frXKiSxL8IDrV5gYbPW9px-DUT_2U',
-    tag: 'Oversized',
-    description: 'When the world is burning but you\'re wearing MemeBazaar.',
-    points: 550
+    subCategory: 'Classic',
+    price: 1299,
+    imageUrl: 'https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&q=80&w=800',
+    description: 'When you find money in your old jeans.',
+    points: 250
   },
+  {
+    id: 'p7',
+    name: 'Much Wow Doge Oversized',
+    category: 'Western',
+    subCategory: 'Internet Legend',
+    price: 1899,
+    imageUrl: 'https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&q=80&w=800',
+    tag: 'Legend',
+    description: 'Such fashion. Very meme. Much wow.',
+    points: 600
+  },
+
+  // Desi Collection
   {
     id: 'p5',
     name: 'Anupama "Main Ghumu" Tee',
@@ -56,6 +69,38 @@ export const PRODUCTS: Product[] = [
     imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuC6nlzpxnlFGaqjuB1ccKxI6XcpkFXGdv3EW8Esgop7qegiDOrirfD5rSu_26pxRW931XqFC2zuN-jXHMRNKeoVKS1zgMLgqcYQiYbSYndRWAtiDZWO8_dFpcN4wSihStExzeQbuln36TEtpPT_pF-7Ddf6lfnxoBF6YXdrrEqJHP0WSy3-cNxut9rVwh15txLXPDTtrBwxuDPj8JhEO9nMlIsq26iBCdWfB_ZK9xLstMhf7Pb5QEr9XegzqoDw8tuyLQWy9Fe-q1w',
     description: 'Relatable Indian TV drama energy.',
     points: 300
+  },
+  {
+    id: 'p8',
+    name: 'Gangs of Wasseypur "Tumse Na Ho Payega"',
+    category: 'Desi',
+    subCategory: 'Bollywood',
+    price: 1499,
+    imageUrl: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&q=80&w=800',
+    tag: 'Desi',
+    description: 'The ultimate reality check for your siblings.',
+    points: 400
+  },
+  {
+    id: 'p9',
+    name: 'Engineering "Chai-Sutta" Chronicles',
+    category: 'Desi',
+    subCategory: 'Student Life',
+    price: 1199,
+    imageUrl: 'https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?auto=format&fit=crop&q=80&w=800',
+    description: 'The real fuel behind the 4.0 CGPA.',
+    points: 350
+  },
+  {
+    id: 'p10',
+    name: 'Startup Hustle "Burn Rate" Tee',
+    category: 'Desi',
+    subCategory: 'Corporate',
+    price: 1699,
+    imageUrl: 'https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&q=80&w=800',
+    tag: 'Hustle',
+    description: 'For those bleeding cash but keeping the vibe high.',
+    points: 500
   }
 ];
 
@@ -81,7 +126,7 @@ export const COLLECTIONS: Collection[] = [
     name: 'Gen-Z Humor',
     category: 'Western',
     itemCount: 25,
-    imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuC4xA63EFoSB69CRIcXMv-UCl4yCSh8BCMmrPsPbLAFpR7oYrbG-e2Mt5IfzCcjddZ1Ckc9tezA9-9lrPL1ygAEsBwWX8AADMfcnn_Bl8YZMFXy5owX9LWBlwgxn7YP-zeYEXsuGncru0l8MZ9FFNJIT6ERFnrRUpNsrSaUwuepCecTNH9Lyn9fn0hzRB9qZdhML8pLTOeEzOd1Uial7X-WzAfc176F0w4dnQegfmfFRMppeHkMJ_VnCKPMS98Sfv0qm0nO7NL2L20'
+    imageUrl: 'https://i.ibb.co/LnhYmTM/Qv9FXjtK.png'
   },
   {
     id: 'c4',

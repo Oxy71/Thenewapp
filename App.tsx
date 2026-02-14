@@ -9,6 +9,7 @@ import Home from './pages/Home';
 import ProductPage from './pages/ProductPage';
 import CollectionsPage from './pages/CollectionsPage';
 import CustomizerPage from './pages/CustomizerPage';
+import CartPage from './pages/CartPage';
 
 // Scroll to top on route change helper
 const ScrollToTop = () => {
@@ -67,6 +68,7 @@ const App: React.FC = () => {
             <Route path={AppRoute.Product} element={<ProductPage onAddToCart={addToCart} />} />
             <Route path={AppRoute.Collections} element={<CollectionsPage />} />
             <Route path={AppRoute.Custom} element={<CustomizerPage onAddToCart={addToCart} />} />
+            <Route path={AppRoute.Cart} element={<CartPage cart={cart} onUpdateQty={updateQuantity} onRemove={removeFromCart} userPoints={userPoints} />} />
             <Route path="*" element={<Home onAddToCart={addToCart} />} />
           </Routes>
         </main>

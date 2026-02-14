@@ -9,7 +9,7 @@ const BottomNav: React.FC = () => {
     { to: AppRoute.Collections, icon: 'grid_view', label: 'Shop' },
     { to: AppRoute.Custom, icon: 'add', label: 'Custom', isAction: true },
     { to: AppRoute.Community, icon: 'people', label: 'Squad' },
-    { to: AppRoute.Account, icon: 'person_outline', label: 'Me' },
+    { to: AppRoute.Cart, icon: 'shopping_cart', label: 'Cart' },
   ];
 
   return (

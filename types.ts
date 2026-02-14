@@ -33,6 +33,5 @@ export enum AppRoute {
   Custom = '/custom',
   Community = '/community',
   Product = '/product/:id',
-  Cart = '/cart',
-  Account = '/account'
+  Cart = '/cart'
 }
